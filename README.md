@@ -50,16 +50,16 @@ fileUploader.send file, (err, downloadUrl) ->
       "region": "ap-northeast-2",
       "acl": "public-read",
       "imageUpload": {
-        "bucket": "prj-diary.image",
+        "bucket": "YOUR_IMAGE_BUCKET",
         "cdn": "example.cloudfront.amazon.com"
       },
       "thumbnailUpload": {
-        "bucket": "prj-diary.thumb",
+        "bucket": "YOUR_THUMBNAIL_BUCKET",
         "cdn": "example2.cloudfront.amazon.com"
       }
       "fileUpload": {
-        "bucket": "prj-diary.file",
-        "cdn": "example2.cloudfront.amazon.com"
+        "bucket": "YOUR_FILE_BUCKET",
+        "cdn": "example3.cloudfront.amazon.com"
       }
     }
   }
