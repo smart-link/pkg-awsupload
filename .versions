@@ -14,6 +14,6 @@ modules-runtime@0.6.5
 promise@0.7.3
 random@1.0.10
 reactive-var@1.0.10
-smartlinkcom:awsuploader@0.0.6
+smartlinkcom:awsuploader@0.1.0
 tracker@1.0.15
 underscore@1.0.9
