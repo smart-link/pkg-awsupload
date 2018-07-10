@@ -1,3 +1,3 @@
 imageUploader = this.imageUploader;
-thubmnailUploader = this.thumbnailUploader;
+thumbnailUploader = this.thumbnailUploader;
 fileUploader = this.fileUploader;
