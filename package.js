@@ -1,6 +1,6 @@
 Package.describe({
   name: 'smartlinkcom:awsuploader',
-  version: '0.2.1',
+  version: '0.2.2',
   // Brief, one-line summary of the package.
   summary: 'Modify slingshot in order to make it easy to upload image files to AWS.',
   // URL to the Git repository containing the source code for this package.
@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.6');
   api.use([
-    'coffeescript@2.2.1_1',
+    'coffeescript@2.0.3_4',
     'edgee:slingshot@0.7.1'
   ]);
   api.addFiles([
